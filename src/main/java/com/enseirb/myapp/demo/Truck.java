@@ -20,4 +20,12 @@ public class Truck {
     public void setDatePremiereCirculation(String datePremiereCirculation) {
         this.datePremiereCirculation = datePremiereCirculation;
     }
+
+    @Override
+    public String toString() {
+        return "Truck{" +
+                "datePremiereCirculation='" + datePremiereCirculation + '\'' +
+                ", plaqueImmatriculation='" + plaqueImmatriculation + '\'' +
+                '}';
+    }
 }
